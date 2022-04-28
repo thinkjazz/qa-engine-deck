@@ -2,11 +2,11 @@
 import { defineCustomElement } from 'vue'
 import TheNavbar from './components/TheNavbar.vue'
 import CardGrid from './components/CardGrid.vue'
+import TheFooter from './components/TheFooter.vue'
 
 import SideBar from './layouts/SideBar.vue'
 import Section from './layouts/Section.vue'
 
-// import TheFooter from './components/TheFooter.vue'
 
 
 </script>
@@ -14,6 +14,8 @@ import Section from './layouts/Section.vue'
 
 
 <Section/>
+
+<TheFooter/>
 
     <!-- <div class="flex-1">
 <TheNavbar />
