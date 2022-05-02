@@ -37,7 +37,9 @@
           </div>
 
           <div>
-            <button type="submit" class="flex justify-center w-full px-4 py-2 text-lg font-semibold text-white border border-transparent rounded-md shadow-sm bg-emerald-500 hover:bg-emerald-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-emerald-500">Войти</button>
+            <button type="submit" class="flex justify-center w-full px-4 py-2 text-lg font-semibold text-white border border-transparent rounded-md shadow-sm bg-emerald-500 hover:bg-emerald-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-emerald-500">
+               <router-link to="/sidebar">Войти</router-link>
+              </button>
           </div>
         </form>
 

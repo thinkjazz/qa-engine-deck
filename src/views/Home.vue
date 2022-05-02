@@ -23,9 +23,13 @@ import SideBar from '../views/SideBar.vue'
 
 
 <TheHomeHeaderSection/>
+
 <TheFeatureSection/>
+
 <AboutSection/>
+
 <ThePopularStack/>
+
 <TheTeachersSection/>
 
 
