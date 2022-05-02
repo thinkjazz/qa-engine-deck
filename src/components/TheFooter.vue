@@ -1,21 +1,21 @@
 <!-- This example requires Tailwind CSS v2.0+ -->
 <template>
-  <footer class="bg-white">
-    <div class="max-w-7xl mx-auto py-12 px-4 overflow-hidden sm:px-6 lg:px-8">
-      <nav class="-mx-5 -my-2 flex flex-wrap justify-center" aria-label="Footer">
+  <footer class="bg-gray-50">
+    <div class="px-4 py-12 mx-auto overflow-hidden max-w-7xl sm:px-6 lg:px-8">
+      <nav class="flex flex-wrap justify-center -mx-5 -my-2" aria-label="Footer">
         <div v-for="item in navigation.main" :key="item.name" class="px-5 py-2">
           <a :href="item.href" class="text-base text-gray-500 hover:text-gray-900">
             {{ item.name }}
           </a>
         </div>
       </nav>
-      <div class="mt-8 flex justify-center space-x-6">
-        <a v-for="item in navigation.social" :key="item.name" :href="item.href" class="text-gray-400 hover:text-gray-500">
+      <div class="flex justify-center mt-8 space-x-6">
+        <a v-for="item in navigation.social" :key="item.name" :href="item.href" class="text-emerald-600 hover:text-gray-500">
           <span class="sr-only">{{ item.name }}</span>
-          <component :is="item.icon" class="h-6 w-6" aria-hidden="true" />
+          <component :is="item.icon" class="w-6 h-6" aria-hidden="true" />
         </a>
       </div>
-      <p class="mt-8 text-center text-base text-gray-400">&copy; 2022 QA.guru, Inc. All rights reserved.</p>
+      <p class="mt-8 text-base text-center text-gray-400">&copy; 2022 QA.guru, Inc. All rights reserved.</p>
     </div>
   </footer>
 </template>
@@ -29,8 +29,8 @@ const navigation = {
     { name: 'Бложиг', href: '#' },
     { name: 'Работа', href: '#' },
     { name: 'Пресса', href: '#' },
-    { name: 'Accessibility', href: '#' },
-    { name: 'Partners', href: '#' },
+    { name: 'Доступность', href: '#' },
+    { name: 'Партнёрам', href: '#' },
   ],
   social: [
     {
