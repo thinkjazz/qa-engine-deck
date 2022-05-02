@@ -1,19 +1,19 @@
 <script setup lang="ts">
 import { defineCustomElement } from 'vue'
-import TheNavbar from './components/TheNavbar.vue'
-import CardGrid from './components/CardGrid.vue'
-import TheFooter from './components/TheFooter.vue'
-import TheFeatureSection from './components/TheFeatureSection.vue'
-import TheHeaderSection from './components/TheHeaderSection.vue'
-import TheCoursePrice from './components/TheCoursePrice.vue'
-import ThePopularStack from './components/ThePopularStack.vue'
-import TheFAQs from './components/TheFAQs.vue'
-import TheTeachersSection from './components/TheTeachersSection.vue'
-import TheContactSection from './components/TheContactSection.vue'
-import TheRightContentSection from './components/TheRightContentSection.vue'
-import TheLeftContentSection from './components/TheLeftContentSection.vue'
-import SideBar from './layouts/SideBar.vue'
-import Section from './layouts/Section.vue'
+// import TheNavbar from './components/TheNavbar.vue'
+// import CardGrid from './components/CardGrid.vue'
+// import TheFooter from './components/TheFooter.vue'
+// import TheFeatureSection from './components/TheFeatureSection.vue'
+// import TheHeaderSection from './components/TheHeaderSection.vue'
+// import TheCoursePrice from './components/TheCoursePrice.vue'
+// import ThePopularStack from './components/ThePopularStack.vue'
+// import TheFAQs from './components/TheFAQs.vue'
+// import TheTeachersSection from './components/TheTeachersSection.vue'
+// import TheContactSection from './components/TheContactSection.vue'
+// import TheRightContentSection from './components/TheRightContentSection.vue'
+// import TheLeftContentSection from './components/TheLeftContentSection.vue'
+// import SideBar from './layouts/SideBar.vue'
+// import Section from './layouts/Section.vue'
 
 
 
@@ -22,11 +22,11 @@ import Section from './layouts/Section.vue'
 
 <router-view/>
 
-
-<Section/>
+<!--
+<Section/> -->
 <!-- <ThePopularStack/> -->
 
-<TheFeatureSection/>
+<!-- <TheFeatureSection/>
 
 <TheHeaderSection/>
 <TheRightContentSection/>
@@ -36,7 +36,7 @@ import Section from './layouts/Section.vue'
 
 
 <TheContactSection/>
-<TheFooter/>
+<TheFooter/> -->
 
     <!-- <div class="flex-1">
 <TheNavbar />
