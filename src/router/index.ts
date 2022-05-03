@@ -7,27 +7,32 @@ const routes = [
   {
     path: "/",
     name: "Home",
-    component: async () => await import("../views/Home.vue"),
+    component:  () =>  import("../views/Home.vue"),
   },
   {
     path: "/deck",
     name: "Board",
-    component: async () => await import("../views/QABoard.vue"),
+    component:  () => import("../views/QABoard.vue"),
   },
   {
     path: "/login",
     name: "Login",
-    component: async () => await import('../views/Login.vue'),
+    component:  () =>  import('../views/Login.vue'),
   },
   {
     path: "/sidebar",
     name: "Sidebar",
-    component: async () => await import("../views/Sidebar.vue"),
+    component:  () =>  import("../views/Sidebar.vue"),
   },
   {
     path: "/settings",
     name: "Settings",
-    component: async () => await import("../views/Settings.vue"),
+    component: () =>  import("../views/Settings.vue"),
+  },
+  {
+    path: "/create-project",
+    name: "CreateProject",
+    component: () => import("../components/CreateProject.vue"),
   },
 
 ];
