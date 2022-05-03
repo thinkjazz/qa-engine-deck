@@ -151,6 +151,7 @@
           </div>
           <div class="px-4 mx-auto max-w-7xl sm:px-6 md:px-8">
   павпваавппвавп
+
             <!-- Replace with your content -->
             <div class="py-4">
               <div class="border-4 border-gray-200 border-dashed rounded-lg h-96" />

@@ -14,8 +14,7 @@ import TheContactSection from '../components/TheContactSection.vue'
 import TheRightContentSection from '../components/TheRightContentSection.vue'
 // import TheLeftContentSection from '../components/TheLeftContentSection.vue'
 import SideBar from '../views/SideBar.vue'
-
-
+import TextArea from '../components/TextArea.vue'
 
 
 </script>

@@ -37,6 +37,7 @@ import Card from '../components/QACard.vue'
 import Overlay from "../components/QAOverlay.vue"
 import Popup from "../components/QAPopup.vue"
 
+
 export default {
   components: {
     draggable: VueDraggableNext,
@@ -44,6 +45,7 @@ export default {
     Card,
     Overlay,
     Popup,
+
   },
   data() {
     return {
