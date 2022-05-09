@@ -1,4 +1,3 @@
-<!-- This example requires Tailwind CSS v2.0+ -->
 <template>
   <div class="relative bg-emerald-800">
     <div class="absolute inset-0">
