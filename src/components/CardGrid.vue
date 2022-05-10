@@ -55,56 +55,56 @@ const tickets = [
     imageUrl:
       'https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=4&w=256&h=256&q=60',
   },
-  // {
-  //   name: 'John Smith',
-  //   title: 'Dynamic Branding Architect',
-  //   description: '',
-  //   role: 'Mentor',
-  //   email: '',
-  //   telephone: '+1-202-555-0171',
-  //   imageUrl:
-  //      'https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=4&w=256&h=256&q=60',
-  // },
-  // {
-  //   name: 'James Lewis',
-  //   title: 'Dynamic Branding Architect',
-  //   description: '',
-  //   role: 'Mentor',
-  //   email: '',
-  //   telephone: '+1-202-555-0172',
-  //   imageUrl:
-  //      'https://images.unsplash.com/photo-1566492031773-4f4e44671857?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=4&w=256&h=256&q=60',
-  // },
-  // {
-  //   name: 'Theresa Webb',
-  //   title: 'Dynamic Branding Architect',
-  //   description: '',
-  //   role: 'Admin',
-  //   email: '',
-  //   telephone: '+1-202-555-0171',
-  //   imageUrl:
-  //      'https://images.unsplash.com/photo-1498551172505-8ee7ad69f235?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=4&w=256&h=256&q=60',
-  // },
-  // {
-  //   name: 'May Jensen',
-  //   title: 'Dynamic Branding Architect',
-  //   description: '',
-  //   role: 'Mentor',
-  //   email: '',
-  //   telephone: '+1-202-555-0172',
-  //   imageUrl:
-  //      'https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=4&w=256&h=256&q=60',
-  // },
-  // {
-  //   name: 'Jane Cooper',
-  //   title: 'Regional Paradigm Technician',
-  //   description: '',
-  //   role: 'Mentor',
-  //   email: '',
-  //   telephone: '+1-202-555-0174',
-  //   imageUrl:
-  //      'https://images.unsplash.com/photo-1520813792240-56fc4a3765a7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=4&w=256&h=256&q=60',
-  // },
+  {
+    name: 'John Smith',
+    title: 'Dynamic Branding Architect',
+    description: '',
+    role: 'Mentor',
+    email: '',
+    telephone: '+1-202-555-0171',
+    imageUrl:
+       'https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=4&w=256&h=256&q=60',
+  },
+  {
+    name: 'James Lewis',
+    title: 'Dynamic Branding Architect',
+    description: '',
+    role: 'Mentor',
+    email: '',
+    telephone: '+1-202-555-0172',
+    imageUrl:
+       'https://images.unsplash.com/photo-1566492031773-4f4e44671857?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=4&w=256&h=256&q=60',
+  },
+  {
+    name: 'Theresa Webb',
+    title: 'Dynamic Branding Architect',
+    description: '',
+    role: 'Admin',
+    email: '',
+    telephone: '+1-202-555-0171',
+    imageUrl:
+       'https://images.unsplash.com/photo-1498551172505-8ee7ad69f235?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=4&w=256&h=256&q=60',
+  },
+  {
+    name: 'May Jensen',
+    title: 'Dynamic Branding Architect',
+    description: '',
+    role: 'Mentor',
+    email: '',
+    telephone: '+1-202-555-0172',
+    imageUrl:
+       'https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=4&w=256&h=256&q=60',
+  },
+  {
+    name: 'Jane Cooper',
+    title: 'Regional Paradigm Technician',
+    description: '',
+    role: 'Mentor',
+    email: '',
+    telephone: '+1-202-555-0174',
+    imageUrl:
+       'https://images.unsplash.com/photo-1520813792240-56fc4a3765a7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=4&w=256&h=256&q=60',
+  },
 ]
 
 export default {
