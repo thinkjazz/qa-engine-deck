@@ -22,23 +22,13 @@ import TextArea from '../components/TextArea.vue'
 
 
 <TheHomeHeaderSection/>
-
 <TheFeatureSection/>
-
 <AboutSection/>
-
 <ThePopularStack/>
-
 <TheTeachersSection/>
-
-
-
 <TheRightContentSection/>
-
 <TheFAQs/>
 <TheCoursePrice/>
-
-
 <TheContactSection/>
 <TheFooter/>
 
