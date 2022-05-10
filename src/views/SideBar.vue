@@ -55,6 +55,8 @@
 
     <!-- Static sidebar for desktop -->
     <div class="hidden md:flex md:w-64 md:flex-col md:fixed md:inset-y-0">
+                           <AtomButton/>
+
       <!-- Sidebar component, swap this element with another sidebar if you like -->
       <div class="flex flex-col flex-grow pt-5 overflow-y-auto bg-white border-r border-gray-200">
         <div class="flex items-center flex-shrink-0 px-4">
@@ -110,6 +112,8 @@
             </form>
           </div>
           <div class="flex items-center ml-4 md:ml-6">
+
+
             <button type="button"
               class="p-1 text-gray-400 bg-white rounded-full hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-emerald-400">
               <span class="sr-only">Просмотр уведомлений</span>
@@ -137,6 +141,7 @@
                   <a :href="item.href"
                     :class="[active ? 'bg-gray-100' : '', 'block px-4 py-2 text-sm text-gray-700']">{{ item.name }}</a>
                   </MenuItem>
+
                 </MenuItems>
               </transition>
             </Menu>
@@ -192,10 +197,12 @@ import {
   MenuAlt2Icon,
   UserIcon,
   UsersIcon,
+  MailIcon,
   XIcon,
 } from '@heroicons/vue/solid'
 
 import { SearchIcon } from '@heroicons/vue/solid'
+import AtomButton from '../components/AtomButton.vue'
 
 const navigation = [
   { name: 'Глагна', href: '#', icon: HomeIcon, current: false },
@@ -230,6 +237,7 @@ export default {
     MenuAlt2Icon,
     SearchIcon,
     XIcon,
+    AtomButton
   },
   setup() {
     const sidebarOpen = ref(false)

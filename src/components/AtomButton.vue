@@ -5,7 +5,7 @@
   </button>
 </template>
 
-<script>
+<script lang="ts">
 import { MailIcon } from '@heroicons/vue/solid'
 
 export default {
