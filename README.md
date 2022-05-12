@@ -1,4 +1,4 @@
-# # QA Engine Deck (Vue 3 + TypeScript + Vite + Tailwind css UI)
+# QA Engine Deck (Vue 3 + TypeScript + Vite + Tailwind css UI)
 
 ![Иллюстрация к проекту](https://github.com/thinkjazz/qa-engine-deck/blob/main/src/assets/board_5_column.png?raw=true)
 ![Иллюстрация к проекту](https://github.com/thinkjazz/qa-engine-deck/blob/main/src/assets/board_preview.png?raw=true?)
