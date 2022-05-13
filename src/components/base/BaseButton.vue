@@ -9,7 +9,7 @@
 import { MailIcon } from '@heroicons/vue/solid'
 
 export default {
-  name: "AtomButton",
+  name: "BaseButton",
   props: [],
   components: {
     MailIcon,

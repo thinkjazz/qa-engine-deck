@@ -9,6 +9,6 @@
 
 <script>
 export default {
-  name: "AtomLogo"
+  name: "BaseLogo"
 };
 </script>
