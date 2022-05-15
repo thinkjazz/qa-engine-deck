@@ -1,9 +1,9 @@
 <template>
   <form action="#" class="relative">
     <div class="overflow-hidden border border-gray-300 rounded-lg shadow-sm focus-within:border-emerald-500 focus-within:ring-1 focus-within:ring-emerald-500">
-      <label for="title" class="sr-only">Title</label>
+      <label for="title" class="sr-only">Название</label>
       <input type="text" name="title" id="title" class="block w-full border-0 pt-2.5 text-lg font-medium placeholder-gray-500 focus:ring-0" placeholder="Title" />
-      <label for="description" class="sr-only">Description</label>
+      <label for="description" class="sr-only">Описание</label>
       <textarea rows="2" name="description" id="description" class="block w-full py-0 placeholder-gray-500 border-0 resize-none focus:ring-0 sm:text-sm" placeholder="Write a description..." />
 
       <!-- Spacer element to match the height of the toolbar -->
@@ -24,7 +24,7 @@
       <!-- Actions: These are just examples to demonstrate the concept, replace/wire these up however makes sense for your project. -->
       <div class="flex justify-end px-2 py-2 space-x-2 flex-nowrap sm:px-3">
         <Listbox as="div" v-model="assigned" class="flex-shrink-0">
-          <ListboxLabel class="sr-only"> Assign </ListboxLabel>
+          <ListboxLabel class="sr-only"> Назначить </ListboxLabel>
           <div class="relative">
             <ListboxButton class="relative inline-flex items-center px-2 py-2 text-sm font-medium text-gray-500 rounded-full bg-gray-50 whitespace-nowrap hover:bg-gray-100 sm:px-3">
               <UserCircleIcon v-if="assigned.value === null" class="flex-shrink-0 w-5 h-5 text-gray-300 sm:-ml-1" aria-hidden="true" />
@@ -53,7 +53,7 @@
         </Listbox>
 
         <Listbox as="div" v-model="labelled" class="flex-shrink-0">
-          <ListboxLabel class="sr-only"> Add a label </ListboxLabel>
+          <ListboxLabel class="sr-only"> Добавить ярлык </ListboxLabel>
           <div class="relative">
             <ListboxButton class="relative inline-flex items-center px-2 py-2 text-sm font-medium text-gray-500 rounded-full bg-gray-50 whitespace-nowrap hover:bg-gray-100 sm:px-3">
               <TagIcon :class="[labelled.value === null ? 'text-gray-300' : 'text-gray-500', 'flex-shrink-0 h-5 w-5 sm:-ml-1']" aria-hidden="true" />
@@ -77,7 +77,7 @@
         </Listbox>
 
         <Listbox as="div" v-model="dated" class="flex-shrink-0">
-          <ListboxLabel class="sr-only"> Add a due date </ListboxLabel>
+          <ListboxLabel class="sr-only"> Добавить срок выполнения </ListboxLabel>
           <div class="relative">
             <ListboxButton class="relative inline-flex items-center px-2 py-2 text-sm font-medium text-gray-500 rounded-full bg-gray-50 whitespace-nowrap hover:bg-gray-100 sm:px-3">
               <CalendarIcon :class="[dated.value === null ? 'text-gray-300' : 'text-gray-500', 'flex-shrink-0 h-5 w-5 sm:-ml-1']" aria-hidden="true" />
@@ -104,7 +104,7 @@
         <div class="flex">
           <button type="button" class="inline-flex items-center px-3 py-2 -my-2 -ml-2 text-left text-gray-400 rounded-full group">
             <PaperClipIcon class="w-5 h-5 mr-2 -ml-1 group-hover:text-gray-500" aria-hidden="true" />
-            <span class="text-sm italic text-gray-500 group-hover:text-gray-600">Attach a file</span>
+            <span class="text-sm italic text-gray-500 group-hover:text-gray-600">Прикрепить файл</span>
           </button>
         </div>
         <div class="flex-shrink-0">
