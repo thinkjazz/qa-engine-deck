@@ -9,7 +9,7 @@ export const registerBaseComponents = vm => {
       /Base[\w-]+\.vue$/
     );
 
-    requireComponent.keys().forEach(filePath => {
+    requireComponent.keys().forEach((filePath : any)=> {
       // Get component config
       const componentConfig = requireComponent(filePath);
       // Get filename from the filePath
