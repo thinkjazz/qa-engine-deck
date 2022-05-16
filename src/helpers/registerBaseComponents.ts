@@ -1,6 +1,6 @@
 import { camelCase, upperFirst } from "lodash-es";
 
-export const registerBaseComponents = vm => {
+export const registerBaseComponents = (vm: any) => {
   try {
     // Require base component context
     const requireComponent = require.context(
