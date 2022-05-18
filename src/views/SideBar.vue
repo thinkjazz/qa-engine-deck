@@ -43,6 +43,7 @@
                     aria-hidden="true" />
                   {{ item.name }}
                 </a>
+                   <BaseButton/>
               </nav>
             </div>
           </div>
@@ -55,7 +56,7 @@
 
     <!-- Static sidebar for desktop -->
     <div class="hidden md:flex md:w-64 md:flex-col md:fixed md:inset-y-0">
-                           <AtomButton/>
+
 
       <!-- Sidebar component, swap this element with another sidebar if you like -->
       <div class="flex flex-col flex-grow pt-5 overflow-y-auto bg-white border-r border-gray-200">
@@ -76,7 +77,9 @@
                 aria-hidden="true" />
               {{ item.name }}
             </a>
+                     <BaseButton/>
           </nav>
+
         </div>
       </div>
     </div>
@@ -159,9 +162,11 @@
 
             <!-- Replace with your content -->
             <div class="py-4">
+                   <BaseButton/>
               <div class="border-4 border-gray-200 border-dashed rounded-lg h-96" />
 
             </div>
+
             <!-- /End replace -->
           </div>
         </div>
@@ -199,10 +204,11 @@ import {
   UsersIcon,
   MailIcon,
   XIcon,
+  SearchIcon
 } from '@heroicons/vue/solid'
 
-import { SearchIcon } from '@heroicons/vue/solid'
-import AtomButton from '../components/AtomButton.vue'
+
+import BaseButton from '../components/base/BaseButton.vue'
 
 const navigation = [
   { name: 'Глагна', href: '#', icon: HomeIcon, current: false },
@@ -237,7 +243,7 @@ export default {
     MenuAlt2Icon,
     SearchIcon,
     XIcon,
-    AtomButton
+    BaseButton
   },
   setup() {
     const sidebarOpen = ref(false)

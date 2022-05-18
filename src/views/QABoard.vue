@@ -72,7 +72,7 @@ export default {
 </script>
 
 <style>
-.list-container {
+ .list-container {
   position: relative;
   display: flex;
   width: 100vw;
