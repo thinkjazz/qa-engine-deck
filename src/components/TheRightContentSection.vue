@@ -22,8 +22,8 @@
               <li>Orci in sit morbi dignissim metus diam arcu pretium.</li>
             </ul>
             <p>Rhoncus nisl, libero egestas diam fermentum dui. At quis tincidunt vel ultricies. Vulputate aliquet velit faucibus semper. Pellentesque in venenatis vestibulum consectetur nibh id. In id ut tempus egestas. Enim sit aliquam nec, a. Morbi enim fermentum lacus in. Viverra.</p>
-            <h3>How we’re different</h3>
-            <p>Tincidunt integer commodo, cursus etiam aliquam neque, et. Consectetur pretium in volutpat, diam. Montes, magna cursus nulla feugiat dignissim id lobortis amet. Laoreet sem est phasellus eu proin massa, lectus. Diam rutrum posuere donec ultricies non morbi. Mi a platea auctor mi.</p>
+            <h3>Выстраивание инфраструктуры</h3>
+            <p>Узнаете как решать инфраструктурные задачи для встраивания запуска автотестов в CI/CD, контейнеризации браузеров и мобильных устройствУзнаете как решать инфраструктурные задачи для встраивания запуска автотестов в CI/CD, контейнеризации браузеров и мобильных устройств.</p>
             <p>Mauris ullamcorper imperdiet nec egestas mi quis quam ante vulputate. Vel faucibus adipiscing lacus, eget. Nunc fermentum id tellus donec. Ut metus odio sit sit varius non nunc orci. Eu, mi neque, ornare suspendisse amet, nibh. Facilisi volutpat lectus id sapien dis mauris rhoncus. Est rhoncus, interdum imperdiet ac eros, diam mauris, tortor. Risus id sit molestie magna.</p>
           </div>
         </div>
